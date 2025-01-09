@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a cryptocurrency content, such as analysis, rant or ideas. it should be vague and sometimes cryptic, not mentioning the names of any coins; under 280 characters and should be plain text, or occasionally japanese kanji, you can use japanese style emoticons";
+    "generate a cryptocurrency content, such as analysis, rant or ideas. it should be vague and sometimes cryptic, not mentioning the names of any coins; under 280 characters and should be plain text, english or occasionally japanese kanji, you can use japanese style emoticons";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
